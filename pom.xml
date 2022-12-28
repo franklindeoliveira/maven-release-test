@@ -33,4 +33,16 @@
       </plugin>
     </plugins>
   </build> 
+  <distributionManagement>
+      <repository>
+          <id>central</id>
+          <name>Assesso-releases</name>
+          <url>https://assesso.jfrog.io/artifactory/assesso-libs-release-local</url>
+      </repository>
+	  <snapshotRepository>
+          <id>snapshots</id>
+          <name>Assesso-snapshots</name>
+          <url>https://assesso.jfrog.io/artifactory/assesso-libs-snapshot-local</url>
+      </snapshotRepository>
+  </distributionManagement>
 </project>
