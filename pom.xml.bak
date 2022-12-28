@@ -18,6 +18,7 @@
   <scm>
     <url>https://github.com/franklindeoliveira/maven-release-test</url>
     <developerConnection>scm:git:https://github.com/franklindeoliveira/maven-release-test.git</developerConnection>
+    <tag>2.0.1</tag>
   </scm>
   
   <build>
